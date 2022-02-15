@@ -7,13 +7,12 @@ import { useAuth } from '../context/AuthContext';
 export const Login = () => {
 
   const { login } = useAuth();
-  const [error, setError] = useState('');
-  //const [loading, setLoading] = useState(false);
-  //const history = useHistory();
-
+  const [error, setError] = useState(null);
+  
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  const history = useHistory();
   const handleEmail = e => setEmail(e.target.value);
   const handlePassword = e => setPassword(e.target.value);
 
@@ -23,7 +22,7 @@ export const Login = () => {
     try {
       await login(email, password);
       //setLoading(false);
-      //history.push('/');
+      history.push('/');
     } catch (error) {
       //setLoading(false);
       setError('Credenciales incorrectas');
@@ -44,7 +43,7 @@ export const Login = () => {
           <input type='password' placeholder='Password' onChange={handlePassword} />
           <input type='submit' value='Log In' />
         </form>
-        {loading && <img src={Spinner} alt='Loading' />}
+       
         <p>Don't have an account? <Link to='/signup'>Sign Up</Link> </p>
       </div>
 
