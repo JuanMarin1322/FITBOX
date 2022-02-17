@@ -24,22 +24,63 @@ export const Index = () => {
 
 
   return (
-    <div className='card'>
-      <div className='card-header' >
-      
-        <h1>Este es el  index</h1>
-      </div>
-      <div className='card-body'>
-        <form onSubmit={handleSubmit}>
+    <body>
+    <header>
+            <nav>
+            <div class="nav-bar">
+                <h3> 
+                    Ejemplo
+                </h3>
+
+                <div>
+                    <a href="ejemplo.html">Inicio</a>
+                    <a href="#">Nutrición</a>
+                    <a href="#">Productos</a>
+                    <a href="#">Planes</a>
+                    <a href="#">¿Quienes somos?</a>
+                    <form onSubmit={handleSubmit}>
          <input type='submit' value='Log In' />
         </form>
         <form onSubmit={handleSubmitR}>
          <input type='submit' value='Sign Up' />
         </form>
-       
-        
-      </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class='fondo1'>
+    <div class="contenedor">
+        <div class="Cajon">
+            <h1>ES MOMENTO DE 
+            COMENZAR TU RUTINA</h1>
+            <p>Escoge el plan más adecuado a
+            tus necesidades, empieza a entrenar hoy</p>
+            <div class="boton">
+                <h3>Conocer más</h3>
+            </div>
+        </div>
+        </div>
 
     </div>
+    <div class='z1'>
+
+    </div>
+    
+    </body>
+      
+       
+        
+       
+        
+        
+
+      
+       
+       
+        
+     
+      
+
+    
   )
 }
