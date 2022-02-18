@@ -137,7 +137,7 @@ h1 {
 
 .plansito {
   width:200px;
-height:600px;
+height:320px;
 border-radius: 20px;
 
 
@@ -168,6 +168,10 @@ background-color: #FFFFFF;
   font-size: 10px;
   text-align: center;
   margin-top: 5%;
+  border-bottom: 1px solid black;
+  width: 80%;
+  margin: auto;
+ 
 }
 
 .plansito h4 {
@@ -182,4 +186,20 @@ border-bottom: 1px solid black;
 width: 80%;
   margin: auto;
  
+}
+
+input.sel {
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+  text-align: center;
+  background-color: #001D3D;
+  padding-top: 5px;
+  color: aliceblue;
+  padding-bottom: 5px;
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 23%;
+  margin-top: 5%;
+  right: 50%;
 }
