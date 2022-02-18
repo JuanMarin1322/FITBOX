@@ -56,14 +56,38 @@ export const Index = () => {
             <p>Escoge el plan más adecuado a
             tus necesidades, empieza a entrenar hoy</p>
             <div class="boton">
-                <h3>Conocer más</h3>
+                <h3>Reserva tu cupo</h3>
             </div>
         </div>
         </div>
 
     </div>
     <div class='z1'>
+    <h1 class='ti2'>ESCOGE EL PLAN QUE MAS TE GUSTE</h1>
+    <div class='plan'>
+      <div class= 'plansito'>
+        <h1>Fit Basico</h1>
+        <h2>$ 150.000</h2>
+        <h3>Mensual</h3>
+        <h4>3 veces por semana</h4>
+        <h4>Rutina general</h4>
+        <h4>Acompañamiento basico</h4>
+        <h4>Sin plan de nutrición</h4>
+      </div>
+      <div class= 'plansito'>
+      <h1>Fit Basico</h1>
+        <h2>$ 150.000</h2>
+      </div>
+      <div class= 'plansito'>
+        <h1>Fit Basico</h1>
+        <h2>$ 150.000</h2>
+      </div>
+      <div class= 'plansito'>
+        <h1>Fit Basico</h1>
+        <h2>$ 150.000</h2>
+      </div>
 
+    </div>
     </div>
     
     </body>

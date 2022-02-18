@@ -1,14 +1,13 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Outfit', sans-serif;
+
   
 }
 
 body {
-  background-image: url('./imagenes/Group\ 7.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  
   
 }
 
@@ -30,14 +29,21 @@ nav .nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 nav .nav-bar a{
   text-decoration: none;
   color:#FFFFFF;
-  width: 130px;
+  -webkit-text-stroke: 0.2px #000814;
+  width: auto;
+  margin-right: 8px;
+  margin-left: 8px;
   display: inline-block;
-  text-align: right;
+  text-align: center;
+
 }
 
 
@@ -58,9 +64,9 @@ input[type="submit"]{
   padding-top: 5px;
   color: aliceblue;
   padding-bottom: 5px;
-  width: 90px;
-  
-  border-radius: 20px;
+  width: 80px;
+  border-radius: 10px;
+  margin-left: 2%;
 
 }
 .contenedor {
@@ -68,6 +74,9 @@ input[type="submit"]{
   display: flex;
   height: 100vh;
   flex-direction: column;
+  background-image: url('./imagenes/Group\ 7.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Cajon {
@@ -84,6 +93,19 @@ h1 {
   margin-bottom: 10px;
 }
 
+.ti2 {
+  font-size: 7vh;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.z1{
+  background-color:#001D3D ;
+  height: auto;
+}
+
 .boton {
   margin-top: 30px;
   background-color: #001D3D;
@@ -98,4 +120,66 @@ h1 {
 .boton:hover {
   background-color: rgb(14, 83, 129);
   cursor: pointer;
+}
+
+.plan{
+
+  width: 90%;
+  height: 100%;
+
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+
+}
+
+.plansito {
+  width:200px;
+height:600px;
+border-radius: 20px;
+
+
+background-color: #FFFFFF;
+}
+
+.plansito h1{
+  color: #E31B15;
+  font-size: 20px;
+  text-align: center;
+  
+  border-bottom: 1px solid black;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.plansito h2{
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+.plansito h3{
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.plansito h4 {
+  font-family: 'Poppins', sans-serif;
+font-weight: normal;
+font-size: 10px;
+
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
+border-bottom: 1px solid black;
+width: 80%;
+  margin: auto;
+ 
 }
