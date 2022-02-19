@@ -36,7 +36,7 @@ export const Login = () => {
       <div className='card-header' >
         {error && <p className='error' >{error}</p>}
         <h1>Log In</h1>
-      </div>
+      </div>                                                                                            
       <div className='card-body'>
         <form onSubmit={handleSubmit}>
           <input type='email' placeholder='Email' onChange={handleEmail} />
@@ -45,7 +45,7 @@ export const Login = () => {
         </form>
        
         <p>Don't have an account? <Link to='/signup'>Sign Up</Link> </p>
-      </div>
+      </div>                                                                                                                                                              
 
     </div>
   )

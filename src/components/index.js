@@ -72,7 +72,7 @@ export const Index = () => {
         <h4>3 veces por semana</h4>
         <h4>Rutina general</h4>
         <h4>Acompañamiento basico</h4>
-        <h4>Sin plan de nutrición</h4>
+        
         <input class='sel' type='submit' value='Seleccionar' />
       </div>
       <div class= 'plansito'>
@@ -83,7 +83,7 @@ export const Index = () => {
         <h4>4 veces por semana</h4>
         <h4>Rutina general</h4>
         <h4>Acompañamiento basico</h4>
-        <h4>Sin plan de nutrición</h4>
+        
         <input class='sel' type='submit' value='Seleccionar' />
       </div>
       <div class= 'plansito'>
@@ -93,7 +93,7 @@ export const Index = () => {
         <h4>5 veces por semana</h4>
         <h4>Rutina personalizada</h4>
         <h4>Acompañamiento avanzado</h4> 
-        <h4>Plan de nutrición basico</h4>
+        
         <input class='sel' type='submit' value='Seleccionar' />
       </div>
 
@@ -104,7 +104,7 @@ export const Index = () => {
         <h4>Entrada ilimitada</h4>
         <h4>Rutina personalizada</h4>
         <h4>Acompañamiento completo</h4> 
-        <h4>Plan de nutrición completo</h4>
+
         <input class='sel' type='submit' value='Seleccionar' />
       </div>
 

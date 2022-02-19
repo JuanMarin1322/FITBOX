@@ -43,6 +43,7 @@ nav .nav-bar a{
   margin-left: 8px;
   display: inline-block;
   text-align: center;
+  font-size: 2.5vh;
 
 }
 
@@ -52,21 +53,22 @@ nav .nav-bar a:hover {
 }
 
 nav .nav-bar form{
-  text-decoration: none;
-  width: 80px;
+   text-decoration: none;
+  width: 10vh;
   display: inline-block;
-  text-align: right;
+  text-align: center;
   
   
 }
 input[type="submit"]{
   background-color: #001D3D;
-  padding-top: 5px;
+  padding-top: 0.5vh;
   color: aliceblue;
-  padding-bottom: 5px;
-  width: 80px;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  width: 15vh;
   border-radius: 10px;
-  margin-left: 2%;
+  font-size: 2.5vh;
 
 }
 .contenedor {
@@ -138,7 +140,7 @@ h1 {
 
 .plansito {
   width: 40vh;
-  height: 50vh;
+  height: 55vh;
   border-radius: 20px;
   background-color: #FFFFFF;
 }
@@ -199,7 +201,11 @@ font-weight: normal;
   padding-bottom: 5px;
   width: 100px;
   border-radius: 10px;
-  margin-left: 16vh;
-  margin-top: 1.5vh;
-  right: 20vh;
+
+  margin-top: 2vh;
+  margin-block: 2vh;
+
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
