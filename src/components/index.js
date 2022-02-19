@@ -53,7 +53,7 @@ export const Index = () => {
         <div class="Cajon">
             <h1>ES MOMENTO DE 
             COMENZAR TU RUTINA</h1>
-            <p>Escoge el plan más adecuado a
+            <p class='caj'>Escoge el plan más adecuado a
             tus necesidades, empieza a entrenar hoy</p>
             <div class="boton">
                 <h3>Reserva tu cupo</h3>
@@ -96,6 +96,7 @@ export const Index = () => {
         <h4>Plan de nutrición basico</h4>
         <input class='sel' type='submit' value='Seleccionar' />
       </div>
+
       <div class= 'plansito'>
       <h1>Fit Pro</h1>
         <h2>$ 210.000</h2>
