@@ -21,6 +21,13 @@ export const SignUp = () => {
   const handlePassword = e => setPassword(e.target.value);
   const handleConfirmPassword = e => setConfirmPassword(e.target.value);
 
+  const handleSubmitR = async (e) => {
+    e.preventDefault();
+    
+      history.push('/login');
+    
+  }
+
   const handleSubmit = async (e) => {
     // No se recarga
     e.preventDefault();
@@ -40,8 +47,9 @@ export const SignUp = () => {
   }
 
   return (
-    <div className='card'>
-      <div className='card-header' >
+    <body class='fondRegi'>
+    <div className='card-log'>
+      <div className='log' >
         {error && <p className='error' >{error}</p>}
         <h1>Sign Up</h1>
       </div>
@@ -52,10 +60,14 @@ export const SignUp = () => {
           <input type='password' placeholder='Confirm Password' onChange={handleConfirmPassword} />
           <input type='submit' value='Sign Up' />
         </form>
-      
+
+        <form onSubmit={handleSubmitR}>
+         <input type='submit' value='Ingresa' className='regi'/>
+        </form>
         <p>Do you already have an account? <Link to='/login'>Login</Link> </p>
       </div>
 
     </div>
+    </body>
   )
 }

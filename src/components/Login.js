@@ -30,23 +30,40 @@ export const Login = () => {
     }
   }
 
+  const handleSubmitR = async (e) => {
+    e.preventDefault();
+    
+      history.push('/signup');
+    
+  }
+
 
   return (
-    <div className='card'>
-      <div className='card-header' >
+    <body class='fondLogin'>
+    <div className='card-log'>
+      <div className='log' >
         {error && <p className='error' >{error}</p>}
-        <h1>Log In</h1>
+        <h1>Ingresa</h1>
+        <h2>Ven a revisar tu progreso</h2>
       </div>                                                                                            
-      <div className='card-body'>
-        <form onSubmit={handleSubmit}>
-          <input type='email' placeholder='Email' onChange={handleEmail} />
-          <input type='password' placeholder='Password' onChange={handlePassword} />
+      <div className='card'>
+        <form onSubmit={handleSubmit} className='card-logi'>
+          
+          <input type='email' placeholder='Correo electronico' onChange={handleEmail} />
+          <input type='password' placeholder='Contraseña' onChange={handlePassword} />
+          <Link to='/signup'>¿Olvidaste tu usuario o contraseña?</Link> 
           <input type='submit' value='Log In' />
+          
         </form>
-       
-        <p>Don't have an account? <Link to='/signup'>Sign Up</Link> </p>
+
+        <form onSubmit={handleSubmitR}>
+         <input type='submit' value='Sign Up' className='regi'/>
+        </form>
+        
+      
       </div>                                                                                                                                                              
 
     </div>
+    </body>
   )
 }

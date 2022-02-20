@@ -209,3 +209,130 @@ font-weight: normal;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Login */
+
+.fondLogin {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url('./imagenes/login.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fondRegi {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url('./imagenes/Registro.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-log{
+  width: 167vh;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.log h1{
+  font-family: Outfit;
+font-style: normal;
+font-weight: bold;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+font-size: 10vh;
+color: #001D3D;
+}
+
+.log h2{
+  
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+font-size: 3vh;
+
+color: #001D3D;
+}
+.card-logi {
+  width: 40vh;
+  height: 20vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+input[type="email"]{
+  width: 40vh;
+  /* height: 44vh; */
+  border: 1px solid #001D3D;
+  box-sizing: border-box;
+  border-radius: 5px;
+  filter: drop-shadow(3px 2px 2px #001D3D);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  font-size: 3vh;
+  padding: 1vh;
+
+}
+
+input[type="password"]{
+  width: 40vh;
+  /* height: 44vh; */
+  border: 1px solid #001D3D;
+  box-sizing: border-box;
+  border-radius: 5px;
+  filter: drop-shadow(3px 2px 2px #001D3D);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  font-size: 3vh;
+  padding: 1vh;
+
+}
+
+a {
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 2vh;
+line-height: 0%;
+
+margin-top: 5vh;
+margin-bottom: 5vh;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: rgba(1, 38, 78, 0.6);
+}
+
+.regi{
+  background-color: #001D3D;
+  padding-top: 0.5vh;
+  color: aliceblue;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  width: 15vh;
+  border-radius: 10px;
+  font-size: 2.5vh;
+  margin-top: 5vh;
+}
