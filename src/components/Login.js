@@ -30,13 +30,6 @@ export const Login = () => {
     }
   }
 
-  const handleSubmitR = async (e) => {
-    e.preventDefault();
-    
-      history.push('/signup');
-    
-  }
-
 
   return (
     <body class='fondLogin'>
@@ -55,13 +48,10 @@ export const Login = () => {
           <input type='submit' value='Log In' />
           
         </form>
-
-        <form onSubmit={handleSubmitR}>
-         <input type='submit' value='Sign Up' className='regi'/>
-        </form>
-        
-      
-      </div>                                                                                                                                                              
+        <br>
+        </br>
+        <p><Link to='/signup'>Sign Up</Link> </p>
+      </div>
 
     </div>
     </body>

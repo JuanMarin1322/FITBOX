@@ -40,7 +40,7 @@ export const SignUp = () => {
         await signup(email, password);
         history.push('/');
       } catch (error) {
-        setError('Wrong Credentials');
+        setError('Credenciales invalidas');
         setTimeout(() => setError(''), 1500);
       }
     }
@@ -51,7 +51,8 @@ export const SignUp = () => {
     <div className='card-log'>
       <div className='log' >
         {error && <p className='error' >{error}</p>}
-        <h1>Sign Up</h1>
+        <h1>Registrate</h1>
+        <h2>Inscribete a tu vida Fit</h2>
       </div>
       <div className='card-body'>
         <form onSubmit={handleSubmit} >
@@ -64,7 +65,7 @@ export const SignUp = () => {
         <form onSubmit={handleSubmitR}>
          <input type='submit' value='Ingresa' className='regi'/>
         </form>
-        <p>Do you already have an account? <Link to='/login'>Login</Link> </p>
+       
       </div>
 
     </div>
