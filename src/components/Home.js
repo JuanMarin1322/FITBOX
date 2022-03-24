@@ -23,7 +23,7 @@ export const Home = () => {
     }
   }
   return (
-    <body>
+    <div>
     <Nav></Nav>
     <div class='fondo1'>
     <div class="contenedor">
@@ -76,20 +76,6 @@ export const Home = () => {
           </div>     
      
     
-    
-    
-
-
-
-
-
-
-
-
-
-    
-
-    
-    </body>
+  </div>
   )
 }
