@@ -31,7 +31,7 @@ function Nav (){
 
                 <div class="anav">
                     <a href="ejemplo.html">Inicio</a>
-                    <a href="#">Nutrición</a>
+                    <a href="#">Mi perfil</a>
                     <a href="#">Productos</a>
                     <a href="#">Planes</a>
                     <a href="#">¿Quienes somos?</a>

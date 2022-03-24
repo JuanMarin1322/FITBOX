@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 import { useAuth } from '../context/AuthContext';
+import '../Styles/login.css'
 //import Spinner from '../spinner.svg';
 
 export const Login = () => {

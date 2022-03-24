@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 //import Spinner from '../spinner.svg';
-
+import '../Styles/signUp.css'
 import { useAuth } from '../context/AuthContext';
 
 
@@ -21,19 +21,14 @@ export const SignUp = () => {
   const handlePassword = e => setPassword(e.target.value);
   const handleConfirmPassword = e => setConfirmPassword(e.target.value);
 
-  const handleSubmitR = async (e) => {
-    e.preventDefault();
-    
-      history.push('/login');
-    
-  }
+  
 
   const handleSubmit = async (e) => {
     // No se recarga
     e.preventDefault();
     //setLoading(true);
     if (password !== confirmPassword) {
-      setError('Passwords do not match');
+      setError('Las contraseñas no coinciden');
       setTimeout(() => setError(''), 1500);
     } else {
       try {
@@ -59,12 +54,10 @@ export const SignUp = () => {
           <input type='email' placeholder='Email' onChange={handleEmail} />
           <input type='password' placeholder='Password' onChange={handlePassword} />
           <input type='password' placeholder='Confirm Password' onChange={handleConfirmPassword} />
+          <p><Link to='/login'>¿Ya tienes una cuenta? Ingresa</Link> </p>
           <input type='submit' value='Sign Up' />
         </form>
 
-        <form onSubmit={handleSubmitR}>
-         <input type='submit' value='Ingresa' className='regi'/>
-        </form>
        
       </div>
 

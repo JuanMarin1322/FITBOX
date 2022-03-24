@@ -3,6 +3,9 @@ import { useHistory } from 'react-router-dom';
 
 import { useAuth } from '../context/AuthContext';
 import Nav from '../components/nav';
+import CajonPlan from '../components/cajonPlan';
+import Carrusel from '../components/carrusel';
+import '../Styles/home.css'
 
 export const Home = () => {
   const { logout, currentUser } = useAuth();
@@ -37,53 +40,43 @@ export const Home = () => {
 
     </div>
     <div class='z1'>
-    <h1 class='ti2'>ESCOGE EL PLAN QUE MAS TE GUSTE</h1>
-    <div class='plan'>
-      <div class= 'plansito'>
-        <h1>Fit Basico</h1>
-        <h2>$ 150.000</h2>
-        <h3>Mensual</h3>
-        <h4>3 veces por semana</h4>
-        <h4>Rutina general</h4>
-        <h4>Acompañamiento basico</h4>
-        
-        <input class='sel' type='submit' value='Seleccionar' />
-      </div>
-      <div class= 'plansito'>
-      
-      <h1>Fit Plus</h1>
-        <h2>$ 170.000</h2>
-        <h3>Mensual</h3>
-        <h4>4 veces por semana</h4>
-        <h4>Rutina general</h4>
-        <h4>Acompañamiento basico</h4>
-        
-        <input class='sel' type='submit' value='Seleccionar' />
-      </div>
-      <div class= 'plansito'>
-      <h1>Fit Premium</h1>
-        <h2>$ 185.000</h2>
-        <h3>Mensual</h3>
-        <h4>5 veces por semana</h4>
-        <h4>Rutina personalizada</h4>
-        <h4>Acompañamiento avanzado</h4> 
-        
-        <input class='sel' type='submit' value='Seleccionar' />
-      </div>
+      <h1 class='ti2'>ESCOGE EL PLAN QUE MAS TE GUSTE</h1>
+      <div class='plan'>
+      <CajonPlan></CajonPlan>
+      <CajonPlan></CajonPlan>
+      <CajonPlan></CajonPlan>
+      <CajonPlan></CajonPlan>    
 
-      <div class= 'plansito'>
-      <h1>Fit Pro</h1>
-        <h2>$ 210.000</h2>
-        <h3>Mensual</h3>
-        <h4>Entrada ilimitada</h4>
-        <h4>Rutina personalizada</h4>
-        <h4>Acompañamiento completo</h4> 
-
-        <input class='sel' type='submit' value='Seleccionar' />
       </div>
-
-    </div>
-    </div>
+      </div>
+      <div class='homeTienda'>
+        <div class='homeTienda-texto'>
+          <h1>COMPLEMENTA TU<br/>ENTRENAMIENTO CON NUESTROS PRODUCTOS</h1>
+        </div>
+        <div class='homeTienda-carrusel'>
+        <h1>IMAGEN</h1>
+        </div>
+      </div>
+      <div class="homecalculos">
+        <h1>CALCULA TUS HABITOS<br/>SALUDABLES</h1>
+      </div>
+        <div class="ingCalculos">
+          <h2>Ingresa tus datos</h2>
+          <div class="datCalculos">
+            <input class="dat" placeholder='Nombre'></input>
+            <input class="dat" placeholder='Nombre'></input>
+            <select class="dat" placeholder='Genero'>
+            
+            <option value="value2" >Masculino</option>
+            <option value="value3">Femenino</option>
+            <option value="value3">Otro</option>
+            </select>
+            <input class="dat" placeholder='Nombre'></input>
+          </div>
+          </div>     
+     
+    
+    
     
 
 

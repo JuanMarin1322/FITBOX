@@ -1,0 +1,71 @@
+input.sel {
+    background-color: #001D3D;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    color: aliceblue;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    /* width: 10em; */
+    /* height: 5vh; */
+    border-radius: 10px;
+    font-size: 1em;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+   
+}
+
+.plansito {
+    width: 40vh;
+    height: 46vh;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+  }
+  
+  .plansito h1{
+    color: #E31B15;
+    font-size: 5vh;
+    text-align: center;
+    
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  
+  .plansito h2{
+    color: #000000;
+    font-size: 3.5vh;
+    text-align: center;
+    margin-top: 5%;
+  
+  }
+  
+  
+  .plansito h3{
+    color: #000000;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 5%;
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin: auto;
+   
+  }
+  
+  .plansito h4 {
+    font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 2vh;
+  
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 80%;
+    margin: auto;
+   
+  }
+  
+  

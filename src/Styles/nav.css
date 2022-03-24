@@ -49,22 +49,28 @@ nav {
     
   }
   input[type="submit"]{
-    background-color: #001D3D;
-    padding-top: 0.5vh;
-    color: aliceblue;
-    padding-left: 2vh;
-    padding-right: 2vh;
-    width: 15vh;
-    border-radius: 10px;
-    font-size: 2.5vh;
+   
+      background-color: #001D3D;
+      padding-top: 0.5vh;
+      color: aliceblue;
+      padding-left: 2vh;
+      padding-right: 2vh;
+      width: 10em;
+      border-radius: 10px;
+      font-size: 1.5em;
   
   }
 
   img.logos {
      
-    width: 200px;
-height: 50px;
-margin: 1.5em
+    width: 12em;
+    height: 3em;
+    /* margin-top: 2.5em; */
+    margin-left: 2em;
+    /* align-items: center; */
+    /* align-content: center; */
+    margin: auto;
+    margin-left: 2em;
 }
   .logout-button{
 

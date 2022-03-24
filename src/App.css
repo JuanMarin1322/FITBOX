@@ -85,58 +85,6 @@ h1 {
 
 }
 
-.plansito {
-  width: 40vh;
-  height: 55vh;
-  border-radius: 20px;
-  background-color: #FFFFFF;
-}
-
-.plansito h1{
-  color: #E31B15;
-  font-size: 5vh;
-  text-align: center;
-  
-  border-bottom: 1px solid black;
-  width: 80%;
-  margin: auto;
-  margin-top: 5%;
-}
-
-.plansito h2{
-  color: #000000;
-  font-size: 3.5vh;
-  text-align: center;
-  margin-top: 5%;
-
-}
-
-
-.plansito h3{
-  color: #000000;
-  font-size: 3vh;
-  text-align: center;
-  margin-top: 5%;
-  border-bottom: 1px solid black;
-  width: 80%;
-  margin: auto;
- 
-}
-
-.plansito h4 {
-  font-family: 'Poppins', sans-serif;
-font-weight: normal;
-font-size: 2vh;
-
-padding-top: 1.5vh;
-padding-bottom: 1.5vh;
-text-align: center;
-border-bottom: 1px solid black;
-width: 80%;
-  margin: auto;
- 
-}
-
 input.sel {
   font-family: Poppins;
 font-style: normal;
