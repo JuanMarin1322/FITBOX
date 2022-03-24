@@ -1,0 +1,178 @@
+
+    
+.divperfil{
+    width: 100%;
+    display: flex;
+    
+   
+    background-color: #ffff;
+    
+
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.divperfil1{
+    width: 30%;
+    display: flex;
+    
+    background-color: #ffff;
+    flex-direction: column;
+    justify-content: space-around;
+}
+img.fotoperfil {
+     
+    width: 12em;
+    height: 12em;
+    /* margin-top: 2.5em; */
+   
+    /* align-items: center; */
+    /* align-content: center; */
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+
+.cajonp1{
+    background: #FEFEFE;
+border: 5px solid #001D3D;
+box-sizing: border-box;
+border-radius: 20px;
+padding-bottom: 2em;
+margin-bottom: 1em;
+}
+
+.cajonp1 h1{
+    margin: auto;
+}
+.cajonp1 h4{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 550;
+font-size: 48px;
+line-height: 60px;
+display: flex;
+align-items: center;
+margin-left: 0.5em;
+color: #E31B15;
+}
+
+.cajonp1 h5{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5em;
+    
+    color: #001D3D;
+    
+}
+.cajonp1-t{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.cajonp1-t h3 {
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 38px;
+letter-spacing: -0.025em;
+margin-top: 1em;
+
+color: #001D3D;
+
+text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.cajonp1-t h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 2em;
+    color: rgba(1, 38, 78, 0.6);
+}
+
+.linea{
+    border: 2px solid #001D3D;
+    position: absolute;
+    margin-left: 2em;
+    width: 20%;
+
+}
+
+.cajonp1-sub{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.cajonp1-sub h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #001D3D;
+
+}
+
+.cajonp1-sub h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items:flex-end;
+
+color: #001D3D;
+
+}
+
+
+
+.divperfil2{
+    width: 60%;
+}
+.divperfil1 h1{
+
+    margin-top: 4em;
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+letter-spacing: -0.025em;
+
+color: #001D3D;
+
+text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.divperfil2-p1{
+
+    margin-top: 4em;
+    background: #FFFFFF;
+border: 5px solid #001D3D;
+box-sizing: border-box;
+border-radius: 20px;
+}

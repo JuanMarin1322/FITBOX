@@ -30,8 +30,8 @@ function Nav (){
             <img class="logos" src='../logo.png'/>
 
                 <div class="anav">
-                    <a href="ejemplo.html">Inicio</a>
-                    <a href="#">Mi perfil</a>
+                    <a href="/">Inicio</a>
+                    <a href="/perfil">Mi perfil</a>
                     <a href="#">Productos</a>
                     <a href="#">Planes</a>
                     <a href="#">¿Quienes somos?</a>
