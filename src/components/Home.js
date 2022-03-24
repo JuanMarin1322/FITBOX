@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { useAuth } from '../context/AuthContext';
+import Nav from '../components/nav';
 
 export const Home = () => {
   const { logout, currentUser } = useAuth();
@@ -20,26 +21,7 @@ export const Home = () => {
   }
   return (
     <body>
-    <header>
-            <nav>
-            <div class="nav-bar">
-                <h3> 
-                    Ejemplo
-                </h3>
-
-                <div>
-                    <a href="ejemplo.html">Inicio</a>
-                    <a href="#">Nutrición</a>
-                    <a href="#">Productos</a>
-                    <a href="#">Planes</a>
-                    <a href="#">¿Quienes somos?</a>
-                    <button className='logout-button' onClick={handleLogout} >Log Out</button>
-                    <p>Hola, {currentUser.email}</p>
-                    
-                </div>
-            </div>
-        </nav>
-    </header>
+    <Nav></Nav>
     <div class='fondo1'>
     <div class="contenedor">
         <div class="Cajon">

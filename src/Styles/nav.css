@@ -1,0 +1,101 @@
+nav {
+    width: 100%;
+    background-color: transparent;
+    color: gray;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    background: #001D3D;
+  }
+  
+  nav .nav-bar {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  nav .nav-bar a{
+    text-decoration: none;
+    color:#FFFFFF;
+    -webkit-text-stroke: 0.2px #000814;
+    width: auto;
+    margin-right: 40px;
+    margin-left: 8px;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.5vh;
+  
+  }
+  
+  
+  nav .nav-bar a:hover {
+    color: black;
+  }
+  
+  nav .nav-bar form{
+     text-decoration: none;
+    width: 10vh;
+    display: inline-block;
+    text-align: center;
+    
+    
+  }
+  input[type="submit"]{
+    background-color: #001D3D;
+    padding-top: 0.5vh;
+    color: aliceblue;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    width: 15vh;
+    border-radius: 10px;
+    font-size: 2.5vh;
+  
+  }
+
+  img.logos {
+     
+    width: 200px;
+height: 50px;
+margin: 1.5em
+}
+  .logout-button{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 45px;
+/* identical to box height */
+
+letter-spacing: -0.025em;
+
+color: #F3F3F3;
+    /* Rectangle 1 */
+
+
+
+width: 173px;
+height: 53px;
+left: 1701px;
+top: 23px;
+
+/* as */
+
+background: linear-gradient(360deg, #EC0000 0%, #780101 73.96%);
+/* Boton */
+
+box-shadow: 3px 4px 6px #001D3D;
+border-radius: 10px;
+  }
+
+  .anav {
+    margin: 1em;
+}

@@ -3,6 +3,7 @@ import { Index } from './components/index';
 import { Login } from './components/Login';
 import { SignUp } from './components/SignUp';
 import { Home } from './components/Home';
+import { Nav } from './components/nav';
 import { AuthProvider } from './context/AuthContext';
 
 
