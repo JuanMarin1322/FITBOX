@@ -16,7 +16,7 @@ function Nav (){
   const handleLogout = async () => {
     try {
       await logout();
-      history.push('/login');
+      history.push('/');
     } catch (error) {
       setError('Server Error')
     }

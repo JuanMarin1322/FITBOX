@@ -1,0 +1,39 @@
+.linea2{
+    border: 2px solid #001D3D;
+    width: 8em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.divperfil2-p1-img{
+    
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-left: 3em;
+    margin-right: 3em
+   
+}
+.imgHorario{
+    width: 45px;
+    height: 45px;
+}
+
+.btn-horario{
+/* Linear */
+
+background: linear-gradient(360deg, #001D3D 0%, #013A78 73.96%);
+/* Boton */
+
+box-shadow: 3px 4px 6px #001D3D;
+border-radius: 10px;
+padding: 1em;
+color: #FEFEFE;
+margin: auto;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 0%;
+}
