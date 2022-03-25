@@ -1,0 +1,187 @@
+.tiCom{
+    padding: 2em;
+    padding-top: 7em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.tiCom h1{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 108.7%;
+/* identical to box height, or 98px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+color: #001D3D;
+margin-bottom: 1em;
+margin-top: 1em;
+
+}
+
+.tiCom h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 108.7%;
+/* or 39px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+color: #001D3D;
+}
+
+.input-1{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.inp-1{
+        /* Boton */
+
+filter: drop-shadow(3px 4px 6px #001D3D);
+border-radius: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+padding: 0.2em;
+padding-left: 1em;
+color: #001D3D;
+width: 40%;
+
+}
+
+.inp-2{
+    /* Boton */
+
+filter: drop-shadow(3px 4px 6px #001D3D);
+border-radius: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+padding: 0.2em;
+padding-left: 1em;
+color: #001D3D;
+width: 40%;
+
+}
+
+.inp-3{
+    /* Boton */
+
+filter: drop-shadow(3px 4px 6px #001D3D);
+border-radius: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+padding: 0.2em;
+padding-left: 1em;
+color: #001D3D;
+width: 10%;
+
+}
+
+.inp-4{
+    /* Boton */
+
+filter: drop-shadow(3px 4px 6px #001D3D);
+border-radius: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+padding: 0.2em;
+padding-left: 1em;
+color: #001D3D;
+width: 10%;
+
+}
+
+.inp-5{
+    /* Boton */
+
+filter: drop-shadow(3px 4px 6px #001D3D);
+border-radius: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+padding: 0.2em;
+padding-left: 1em;
+color: #001D3D;
+width: 26%;
+
+}
+
+.tiCom h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 108.7%;
+    /* or 39px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    
+    color: #001D3D;
+    margin-top: 1em;
+
+
+}
+
+.cuadroTx{
+    width: 90%;
+    height: 20%;
+    filter: drop-shadow(3px 4px 6px #001D3D);
+}

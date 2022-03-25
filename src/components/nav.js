@@ -32,7 +32,7 @@ function Nav (){
                 <div class="anav">
                     <a href="/">Inicio</a>
                     <a href="/perfil">Mi perfil</a>
-                    <a href="#">Productos</a>
+                    <a href="/perfilC">Productos</a>
                     <a href="#">Planes</a>
                     <a href="#">¿Quienes somos?</a>
                     <button className='logout-button' onClick={handleLogout} >Log Out</button>

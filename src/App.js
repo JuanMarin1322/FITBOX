@@ -3,6 +3,7 @@ import { Index } from './components/index';
 import { Login } from './components/Login';
 import { SignUp } from './components/SignUp';
 import { Home } from './components/Home';
+import { ComPerfil } from './components/comPerfil';
 import { Perfil } from './components/perfil';
 import { AuthProvider } from './context/AuthContext';
 
@@ -19,6 +20,7 @@ function App() {
           
             <PrivateRoute exact path='/' component={Home} />
             <PrivateRoute exact path='/perfil' component={Perfil} />
+            <PrivateRoute exact path='/perfilc' component={ComPerfil} />
             <Route exact path='/index' component={Index} />
             <Route exact path='/login' component={Login} />
             <Route exact path='/signup' component={SignUp} />

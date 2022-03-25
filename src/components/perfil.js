@@ -32,8 +32,13 @@ export const Perfil = () => {
         <img class="fotoperfil" src='../Perfil.png'/>
         <div class='cajonp1'>
             <div class='cajonp1-t'>
+            <div class="ticajon">
             <h3>Tu info</h3>
+            </div>
+            
+            <div class="soli">
             <h2>Solicita cambio</h2>
+            </div>
             
             </div>
             <hr class="linea"></hr>
@@ -55,9 +60,13 @@ export const Perfil = () => {
 
         <div class='cajonp1'>
             <div class='cajonp1-t'>
+            <div class="ticajon">
             <h3>Tu progreso</h3>
-            <h2>Solicita cambio</h2>
+            </div>
             
+            <div class="soli">
+            <h2>Solicita cambio</h2>
+            </div>
             </div>
             <hr class="linea"></hr>
             <div class='cajonp1-sub'>
@@ -78,8 +87,14 @@ export const Perfil = () => {
 
         <div class='cajonp1'>
             <div class='cajonp1-t'>
+            <div class="ticajon">
             <h3>Tu plan actual</h3>
+            </div>
+            
+            
+            <div class="soli">
             <h2>Solicita cambio</h2>
+            </div>
             
             
             </div>

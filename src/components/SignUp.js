@@ -33,7 +33,7 @@ export const SignUp = () => {
     } else {
       try {
         await signup(email, password);
-        history.push('/');
+        history.push('/perfilC');
       } catch (error) {
         setError('Credenciales invalidas');
         setTimeout(() => setError(''), 1500);

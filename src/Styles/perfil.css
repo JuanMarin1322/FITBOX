@@ -88,8 +88,6 @@ font-weight: 500;
 font-size: 30px;
 line-height: 38px;
 letter-spacing: -0.025em;
-margin-top: 1em;
-
 color: #001D3D;
 
 text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
@@ -101,7 +99,6 @@ text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    margin-top: 2em;
     color: rgba(1, 38, 78, 0.6);
 }
 
@@ -366,4 +363,30 @@ color: #001D3D;
         padding: 2;
         margin-top: 4em;
         margin-bottom: 4em;
+    }
+
+    .soli {
+        display: flex;
+        justify-content: flex-end;
+        width: 70%;
+    }
+
+    .ticajon{
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
+
+    }
+
+    .cajonp1-sub h3{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #001D3D;
+
     }
