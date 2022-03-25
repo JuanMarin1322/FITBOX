@@ -46,9 +46,15 @@ export const ComPerfil = () => {
         </div>
         <h2>Los datos registrados a continuacion son complementarios pero son de gran ayuda para que obtengas los mejores resultados</h2>
         <h3>Enfermedades conocidas</h3>
-        <input class="cuadroTx" type="text" size="150" maxlength="300" ></input>
-        <h3>Enfermedades conocidas</h3>
+        <textarea class="cuadroTx" type="text" size="150" maxlength="300" ></textarea>
+        <h3>Alergias conocidas</h3>
+        <textarea class="cuadroTx" type="text" size="150" maxlength="300" ></textarea>
+        <div class='botTerminar'>
+        <button class='btn-enviar'>Terminar</button>
+        </div>
         <div>
+        
+       
 
         </div>
       </div>

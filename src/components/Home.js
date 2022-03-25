@@ -61,19 +61,29 @@ export const Home = () => {
         <h1>CALCULA TUS HABITOS<br/>SALUDABLES</h1>
       </div>
         <div class="ingCalculos">
-          <h2>Ingresa tus datos</h2>
+        <h2>Ingresa tus datos</h2>
           <div class="datCalculos">
-            <input class="dat" placeholder='Nombre'></input>
-            <input class="dat" placeholder='Nombre'></input>
+            <input class="dat" placeholder='Peso'></input>
+            <input class="dat" placeholder='Altura'></input>
             <select class="dat" placeholder='Genero'>
             
             <option value="value2" >Masculino</option>
             <option value="value3">Femenino</option>
             <option value="value3">Otro</option>
             </select>
-            <input class="dat" placeholder='Nombre'></input>
+            <input class="dat" placeholder='Edad'></input>
           </div>
-          </div>     
+
+          <div class="datCalculos">
+          <button class='btn-enviar'>IMC</button>
+          <button class='btn-enviar'>Vasos Agua</button>
+          </div>
+
+          <div class="datCalculos">
+          <label class="dat"></label>
+          <label class="dat"></label>
+          </div>
+          </div>   
      
     
   </div>
