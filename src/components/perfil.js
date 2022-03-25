@@ -145,7 +145,27 @@ export const Perfil = () => {
                   <h4>Martes</h4>
                   <CajonHorario></CajonHorario>
                 </div>
+                <div class="divperfil2-p1-c">
+                  <h4>Miercoles</h4>
+                  <CajonHorario></CajonHorario>
+                </div>
+                <div class="divperfil2-p1-c">
+                  <h4>Jueves</h4>
+                  <CajonHorario></CajonHorario>
+                </div>
+                <div class="divperfil2-p1-c">
+                  <h4>Viernes</h4>
+                  <CajonHorario></CajonHorario>
+                </div>
+                <div class="divperfil2-p1-c">
+                  <h4>Sabado</h4>
+                  <CajonHorario></CajonHorario>
+                </div>
 
+                <div class="divperfil2-p1-c">
+                  <h4>Domingo</h4>
+                  <CajonHorario></CajonHorario>
+                </div>
                 
                
 
