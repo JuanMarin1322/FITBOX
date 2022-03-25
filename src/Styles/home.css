@@ -143,3 +143,11 @@ border-radius: 15px;
 padding: 1em;
 width: 22%;
 }
+
+body::-webkit-scrollbar {
+	width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #001D3D;
+}

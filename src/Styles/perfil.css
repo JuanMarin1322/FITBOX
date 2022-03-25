@@ -235,7 +235,7 @@ text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
     padding: 1em;
     text-align: center;
     margin: 2em;
-    margin-bottom: 0em;
+    /*margin-bottom: 2em;*/
     
 
 }
@@ -393,3 +393,15 @@ align-items: center;
 color: #001D3D;
 
     }
+ 
+    
+.divperfil2-p1-com::-webkit-scrollbar {
+        width: 2px;
+        height: 12px;
+        
+    }
+    
+.divperfil2-p1-com::-webkit-scrollbar-thumb {
+        background: #003975;
+        border-radius: 10px;
+    }    
