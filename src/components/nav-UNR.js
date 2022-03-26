@@ -28,7 +28,7 @@ function NavUNR (){
         <header>
             <nav>
             <div class="nav-bar">
-            <img class="logos" src='../logo.png'/>
+            <img class="logos" src='https://i.ibb.co/bHRTysc/logo.png'/>
 
                 <div class="anav">
                     <a href="/">Inicio</a>
