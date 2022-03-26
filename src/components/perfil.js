@@ -29,7 +29,7 @@ export const Perfil = () => {
     <div class='divperfil'>
         <div class="divperfil1">
         <h1>Hola, {currentUser.email}</h1>
-        <img class="fotoperfil" src='../Perfil.png'/>
+        <img class="fotoperfil" src='https://i.ibb.co/cN3r90G/Perfil.png'/>
         <div class='cajonp1'>
             <div class='cajonp1-t'>
             <div class="ticajon">
@@ -188,7 +188,7 @@ export const Perfil = () => {
                   <h3>Proximo pago</h3>
                   <hr class="linea2"></hr>
                   <h3>Pago en linea</h3>
-                  <img class="imgpay" src='../imagen/payu.png'/>
+                  <img class="imgpay" src='https://i.ibb.co/LNNW2YR/payu.png'/>
                   <br/>
                   <button class='btn-horario'>Pagar</button>
                   <br/>
@@ -202,10 +202,10 @@ export const Perfil = () => {
                 <hr class="linea2"></hr>
                 <h5>Platinum Hydro Whey</h5>
                   <h3>$300.000</h3>
-                  <img class="imgprodu" src='../imagen/proteina.png'/>
+                  <img class="imgprodu" src='https://i.ibb.co/jwMQL17/proteina.png'/>
                   <hr class="linea2"></hr>
                   <h3>Pago en linea</h3>
-                  <img class="imgpay" src='../imagen/payu.png'/>
+                  <img class="imgpay" src='https://i.ibb.co/LNNW2YR/payu.png'/>
                   <br/>
                   <button class='btn-horario'>Pagar</button>
                   <br/>

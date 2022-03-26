@@ -15,7 +15,7 @@
     display: flex;
     height: 100vh;
     flex-direction: column;
-    background-image: url('../imagenes/fondoHome.png');
+    background-image: url('https://i.ibb.co/1TkM6XR/fondo-Home.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -84,7 +84,7 @@
     display: flex;
     height: 100vh;
     flex-direction: column;
-    background-image: url('../imagenes/fondoHTienda.png');
+    background-image: url('https://i.ibb.co/CmcbHnn/fondo-HTienda.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;

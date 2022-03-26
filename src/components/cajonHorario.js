@@ -17,15 +17,15 @@ export const CajonHorario = () => {
                   <h3>Entrenador</h3>
                   <hr class="linea2"></hr>
                   <div class='divperfil2-p1-img'>
-                  <img class="imgHorario" src='../imagen/cardio.png'/>
+                  <img class="imgHorario" src='https://i.ibb.co/kgGSSdY/cardio.png'/>
                   <h3>Realizar cardio</h3>
                   </div>
                   <div class='divperfil2-p1-img'>
-                  <img class="imgHorario" src='../imagen/calentamiento.png'/>
+                  <img class="imgHorario" src='https://i.ibb.co/r5pXY8g/calentamiento.png'/>
                   <h3>Realizar cardio</h3>
                   </div>
                   <div class='divperfil2-p1-img'>
-                  <img class="imgHorario" src='../imagen/gym.png'/>
+                  <img class="imgHorario" src='https://i.ibb.co/0Drw2HL/gym.png'/>
                   <h3>Realizar cardio</h3>
                   </div>
                   <button class='btn-horario'>Modificar</button>
